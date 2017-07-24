@@ -1,35 +1,10 @@
-var id;
-var pass;
+class User {
 
-var name;
-var email;
-
-// Cookies
-var cookies;
-
-var course_url;
-var courses;
-
-function User(id, pass, cookies, courses) {
-    this.id = id;
-    this.pass = pass;
-
-    //var xd = new auth(id, pass);
-
-    this.cookies = cookies;
-    this.courses = courses;
-}
-
-User.prototype.addCourse = function(xd) {
-    courses.push(xd);
-}
-
-User.prototype.addCookie = function(header, value) {
-    cookies.set(header, value);
-}
-
-User.prototype.getCookie = function(header) {
-    return cookies.get(header);
+    constructor(eid, pw, cookies) {
+        this.id = eid;
+        this.password = pw;
+        this.cookies = cookies;
+    }
 }
 
 // Export class User.
