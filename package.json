@@ -1,0 +1,26 @@
+{
+  "name": "owlbook_server",
+  "version": "1.0.0",
+  "description": "An unoffical API to the University of Western's Owlbook student service.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "osmosis": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n/A.git"
+  },
+  "author": "Jay Chowdhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n/A/issues"
+  },
+  "homepage": "https://github.com/n/A#readme"
+}
