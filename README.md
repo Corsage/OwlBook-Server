@@ -1,5 +1,5 @@
 # OwlBook Server
-The unoffical API for the University of Western OWL service written in NodeJS.
+The unoffical API for the University of Western OWL service written in Node.js.
 
 ## How to Setup
 The required modules are listed below.
