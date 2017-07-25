@@ -3,10 +3,10 @@ The unoffical API for the University of Western OWL service written in Node.js.
 
 ## How to Setup
 The required modules are listed below.
-* async
-* cookie-parser
-* express
-* osmosis
+* [async](https://github.com/caolan/async)
+* [cookie-parser](https://github.com/expressjs/cookie-parser)
+* [express](https://expressjs.com/)
+* [osmosis](https://github.com/rchipka/node-osmosis)
 
 **Once the modules are all set up, simply run the server.js and the rest will be taken care of.**
 
