@@ -33,7 +33,7 @@ function courseEntry(url, cookies) {
             if (data.course === 'course') {
                 // Name contains title and section.
                 var name = data.name.split(' ');
-                courses.push(new Course((name[0] + ' ' + name[1]), data.creator, name[2], data.link, data.grade_url));
+                courses.push(new course((name[0] + ' ' + name[1]), data.creator, name[2], data.link, data.grade_url));
             }
         })
         .done(() => resolve(courses))
