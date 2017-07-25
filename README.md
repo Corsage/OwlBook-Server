@@ -105,25 +105,25 @@ Returns a full student object (student information, courses, and assignments).
 **Returns a full JSON student object if successful.
 ```
 {
-    "id": "sboyal2",
-    "password": "Lockerz12!",
+    "id": "",
+    "password": "",
     "cookies": {
-        "JSESSIONID": "f44f3362-03a1-43d3-ab74-496a6d29405d.azuki06",
-        "NSC_pxm.vxp.db--443": "ffffffffaf157b0b45525d5f4f58455e445a4a4229a0"
+        "JSESSIONID": "",
+        "NSC_pxm.vxp.db--443": ""
     },
-    "courses_url": "https://owl.uwo.ca/portal/tool-reset/33865228-8227-45ea-8b47-e211984fda85/?panel=Main",
+    "courses_url": "",
     "courses": [
         {
-            "title": "APPLMATH 1413",
-            "teacher": "allanb",
-            "section": "001",
-            "home_url": "https://owl.uwo.ca/portal/site/36e3e636-b02a-4837-8951-dfe62e603d4f",
-            "grades_url": "https://owl.uwo.ca/portal/tool-reset/87181db9-3e65-430e-9915-5631abd6e155/?panel=Main",
+            "title": "",
+            "teacher": "",
+            "section": "",
+            "home_url": "",
+            "grades_url": "",
             "assignments": [
                 {
-                    "title": "Assign Grade",
-                    "due_date": "-",
-                    "grade": "(20/20)",
+                    "title": "",
+                    "due_date": "",
+                    "grade": "",
                     "comments": ""
                 }
             ]
