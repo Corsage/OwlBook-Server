@@ -63,7 +63,7 @@ app.get('/api/courses', function(req, res) {
     }
 })
 
-/** Displays an array of asssignment objects based on the course context.
+/** Displays an array of assignment objects based on the course context.
   * @param {query} url
   * @param {cookie} cookies
   */
