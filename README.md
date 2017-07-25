@@ -54,7 +54,7 @@ Used to fetch an array of course objects based on the query url.
 {cookie} NSC_pxm.vxp.db--443 // Western OWL Encryption Key.
 ```
 
-**Returns a JSON array of course objects if successful.
+**Returns a JSON array of course objects if successful.**
 ```
 [
     {
@@ -79,7 +79,7 @@ Used to getch an array of assignment objects based on the query url.
 {cookie} NSC_pxm.vxp.db--443 // Western OWL Encryption Key.
 ```
 
-**Returns a JSON array of assignment objects if successful.
+**Returns a JSON array of assignment objects if successful.**
 ```
 [
     {
@@ -102,7 +102,7 @@ Returns a full student object (student information, courses, and assignments).
 {header} pw // Student password.
 ```
 
-**Returns a full JSON student object if successful.
+**Returns a full JSON student object if successful.**
 ```
 {
     "id": "",
