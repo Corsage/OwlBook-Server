@@ -1,15 +1,15 @@
-const http = require("http");
-const url = require("url");
+const http = require('http');
+const url = require('url');
 
-const express = require("express");
+const express = require('express');
 const cookieParser = require('cookie-parser');
-const async = require("async");
+const async = require('async');
 
 const auth = require('./Western/OWL/auth');
 const assignmentEntry = require('./Western/OWL/assignmentEntry');
 const courseEntry = require('./Western/OWL/courseEntry');
 
-app = express();
+let app = express();
 app.use(cookieParser());
 app.set('json spaces', 4);
 
